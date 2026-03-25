@@ -86,7 +86,7 @@ chown -R searxng:searxng /var/cache/searxng 2>/dev/null || true
 
 # Start Caddy in background — it rewrites Host from X-Forwarded-Host on
 # port 3000, then proxies to SearXNG on port 8080.
-caddy run --config /app/Caddyfile &
+/usr/local/bin/caddy run --config /app/Caddyfile &
 
 # Hand off to the official SearXNG entrypoint
-exec /usr/local/searxng/dockerfiles/docker-entrypoint.sh
+exec /usr/local/searxng/entrypoint.sh
