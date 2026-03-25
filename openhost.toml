@@ -1,0 +1,18 @@
+[app]
+name = "searxng"
+version = "0.1.0"
+description = "SearXNG privacy-respecting metasearch engine"
+
+[runtime.container]
+image = "Dockerfile"
+port = 3000
+
+[routing]
+public_paths = ["/"]
+
+[resources]
+memory_mb = 256
+cpu_millicores = 250
+
+[data]
+app_data = true
