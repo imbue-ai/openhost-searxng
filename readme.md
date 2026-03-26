@@ -24,7 +24,7 @@ All persistent data lives in `$OPENHOST_APP_DATA_DIR/`:
 
 ## Resources
 
-Needs ~256MB RAM and 0.25 CPU cores. The container image is ~180MB.
+Needs ~512MB RAM and 0.25 CPU cores. The container image is ~180MB.
 
 ## Configuration
 

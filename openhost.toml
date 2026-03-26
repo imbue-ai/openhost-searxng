@@ -11,7 +11,7 @@ port = 3000
 public_paths = ["/"]
 
 [resources]
-memory_mb = 256
+memory_mb = 512
 cpu_millicores = 250
 
 [data]
